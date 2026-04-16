@@ -57,9 +57,9 @@ def multiply(a: float, b: float) -> float:
 
 
 @Mcp.tool(name="greet")
-def greet(name: str) -> str:
+def greet(person: str) -> str:
     """Return a friendly greeting."""
-    return f"Hello, {name}! Welcome to the MCP server."
+    return f"Hello, {person}! Welcome to the MCP server."
 
 
 @Mcp.tool(name="timestamp")
